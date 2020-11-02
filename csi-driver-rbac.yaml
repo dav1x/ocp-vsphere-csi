@@ -47,7 +47,7 @@ rules:
     verbs: ["get", "list", "watch"]
   - apiGroups: ["coordination.k8s.io"]
     resources: ["leases"]
-    verbs: ["get", "list", "watch", "update", "patch", "create"]
+    verbs: ["get", "list", "watch", "update", "patch", "create", "delete"]
   - apiGroups:
     - security.openshift.io 
     resourceNames:
