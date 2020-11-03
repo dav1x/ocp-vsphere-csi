@@ -86,7 +86,7 @@ spec:
             - name: X_CSI_MODE
               value: controller
             - name: VSPHERE_CSI_CONFIG
-              value: /etc/cloud/csi-vsphere-for-OCP.conf
+              value: /etc/cloud/csi-vsphere.conf
             - name: LOGGER_LEVEL
               value: PRODUCTION
           securityContext:
@@ -118,7 +118,7 @@ spec:
             - name: FULL_SYNC_INTERVAL_MINUTES
               value: '30'
             - name: VSPHERE_CSI_CONFIG
-              value: /etc/cloud/csi-vsphere-for-OCP.conf
+              value: /etc/cloud/csi-vsphere.conf
             - name: LOGGER_LEVEL
               value: PRODUCTION
           volumeMounts:
